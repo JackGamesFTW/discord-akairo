@@ -1,0 +1,22 @@
+{
+  "name": "akairo",
+  "description": "A simple bot using the Discord Akairo Framework",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "JackGamesFTW",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "tsc-watch --onSuccess \"ts-node src/index.ts"
+  },
+  "dependencies": {
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.1.3"
+  }
+}
